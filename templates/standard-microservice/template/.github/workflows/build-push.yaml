@@ -33,8 +33,8 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          push: false
-          tags: {% endraw %}${{ values.componentName }}:1{% raw %}
+          push: true
+          tags: {% endraw %}${{ values.componentName }} mfunesd/${{ values.componentName }}:1{% raw %}
 
       - name: Notify Humanitec
         run: |
