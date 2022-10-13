@@ -18,7 +18,7 @@ environments:
           containers:
             ${{values.componentName | dump}}:
               id: ${{values.componentName}}
-              image: ${{values.registryUrl}}/${{values.componentName}}:latest
+              image: ${{values.registryUrl}}/${{values.componentName}}:version1.0
               resources:
                 limits:
                   cpu: 0.25
