@@ -35,7 +35,7 @@ spec:
       id: fetch-base
       action: fetch:template
       input:
-        url: ../../template
+        url: https://github.com/mfunesd/backstage-humanitec/blob/main/template.yaml
         values:
           componentName: ${{ parameters.componentName }}
           orgId: ${{ steps.environment.output.orgId }}
