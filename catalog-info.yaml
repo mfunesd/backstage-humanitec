@@ -8,7 +8,7 @@ metadata:
   annotations:
     # github.com/project-slug: thefrontside/backstage
     "humanitec.com/orgId": "accenture"
-    "humanitec.com/appId": "backstage"
+    "humanitec.com/appId": "test2"
     # backstage.io/techdocs-ref: dir:.
 spec:
   type: website
