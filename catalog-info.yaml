@@ -6,7 +6,7 @@ metadata:
   description: Frontside's Backstage Developer Portal
   # Example for optional annotations
   annotations:
-    # github.com/project-slug: thefrontside/backstage
+    github.com/project-slug: mfunesd/backstage-humanitec
     "humanitec.com/orgId": "accenture"
     "humanitec.com/appId": "test2"
     # backstage.io/techdocs-ref: dir:.
