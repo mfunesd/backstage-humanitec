@@ -33,7 +33,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          push: true
+          push: false
           tags: {% endraw %}${{ values.componentName }}:1{% raw %}
 
       - name: Notify Humanitec
