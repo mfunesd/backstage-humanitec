@@ -35,7 +35,7 @@ spec:
       id: fetch-base
       action: fetch:template
       input:
-        url: https://api.github.com/repos/mfunesd/backstage-humanitec/contents/templates/standard-microservice/template.yaml?ref=main
+        url: https://github.com/mfunesd/backstage-humanitec/blob/main/templates/standard-microservice/template.yaml
         values:
           componentName: ${{ parameters.componentName }}
           orgId: ${{ steps.environment.output.orgId }}
