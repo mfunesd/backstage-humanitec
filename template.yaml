@@ -5,7 +5,7 @@ metadata:
   title: Standard Microservice
   description: A microservices that uses Docker, CI and deploys to Humanitec
 spec:
-  owner: john@example.com
+  owner: mfd-acc
   type: service
   parameters:
     - title: New Standard Microservice
