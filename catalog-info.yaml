@@ -12,7 +12,7 @@ metadata:
     # backstage.io/techdocs-ref: dir:.
 spec:
   type: website
-  owner: engineering@frontside.com
+  owner: mfd-acc
   lifecycle: production
   providesApis:
     - backstage-graphql-api
