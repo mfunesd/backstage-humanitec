@@ -45,7 +45,7 @@ jobs:
             --data-raw '{ 
                 "branch": "'${{github.ref_name}}'",
                 "commit": "'${{github.sha}}'",
-                "image": "'{% endraw %}${{ values.registryUrl }}/${{ values.componentName }}:1{% raw %}'",
+                "image": "'{% endraw %}mfunesd/${{ values.componentName }}:1{% raw %}'",
                 "tags": ["'${{github.sha}}'"]
             }'
 {% endraw %}
