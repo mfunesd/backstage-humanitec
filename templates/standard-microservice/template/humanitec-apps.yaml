@@ -18,7 +18,7 @@ environments:
           containers:
             ${{values.componentName | dump}}:
               id: ${{values.componentName}}
-              image: mfunesd/${{values.componentName}}:dummy
+              image: mfunesd/${{values.componentName}}:5ce5a9719a09e634812cb518bcd3245bfdf18fab
               resources:
                 limits:
                   cpu: 0.25
