@@ -34,7 +34,7 @@ environments:
               externals.http:
                 http:
                   "/":
-                    port: 9898
+                    port: 80
                     type: prefix
 
 # automations that will be created
