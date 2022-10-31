@@ -1,0 +1,8 @@
+site_name: Backend Architecture
+site_description: Backend Component
+
+watch:
+  - docs
+
+plugins:
+  - techdocs-core
