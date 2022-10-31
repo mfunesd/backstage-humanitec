@@ -1,5 +1,5 @@
-site_name: Backend Architecture
-site_description: Backend Component
+site_name: ${{values.componentName | dump}}
+site_description: Sample service for Humanitec demo
 
 watch:
   - docs
